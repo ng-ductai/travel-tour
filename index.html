@@ -1,0 +1,874 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRAVEL</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="./asset/css/main.css">
+    <link rel="stylesheet" href="./asset/css/style.css">
+    <link rel="stylesheet" href="./asset/css/grid.css">
+    <link rel="stylesheet" href="./asset/css/responsive.css">
+
+
+</head>
+<body>
+    <div class="wrapper">
+
+        <!-- header div starts  -->
+        <header class="header">
+
+            <div id="header-menu-bar" class="fas fa-bars"></div>
+            <a href="#" class="header-logo"><span>T</span>ravel</a>
+
+            <nav class="header-navbar">
+                <a class="active" href="#">home</a>
+                <a href="#book">book</a>
+                <a href="#packages">packages</a>
+                <a href="#services">services</a>
+                <a href="#gallery">gallery</a>
+                <a href="#review">review</a>
+                <a href="#contact">contact</a>
+            </nav>
+
+            <div class="header-icons">
+                <i class="fas fa-search" id="header-search-btn"></i>
+                <i class="fas fa-user" id="header-login-btn"></i>
+            </div>
+
+            <form action="" class="header-search-bar-container">
+                <input type="search" id="search-bar" placeholder="Search here...">
+                <label for="search-bar" class="fas fa-search"></label>
+            </form>
+
+        </header>
+        <!-- header div ends -->
+
+
+        <!-- login form container  -->
+        <div class="header-login-form">
+
+            <i class="fas fa-times" id="header-form-close"></i>
+
+            <form action="" class="header-login-form-container">
+                <h3>login</h3>
+                <input type="email" class="box" placeholder="Enter your email">
+                <input type="password" class="box" placeholder="Enter your password">
+                <input type="submit" value="Login now" class="btn">
+                <div class="form-remember">
+                    <input type="checkbox" id="remember">
+                    <label class="remember-label" for="remember">Remember me</label>
+                </div>                
+                <p>Forget password? <a href="#">Click here</a></p>
+                <p>Don't have and account? <a href="#">Register now</a></p>
+            </form>
+
+        </div>
+
+        <!-- slider div starts  -->
+        <div class="slider " id="slider ">
+
+            <div class="slider-content">
+                <h3>adventure is worthwhile</h3>
+                <p>dicover new places with us, adventure awaits</p>
+                <a href="#" class="btn">discover more</a>
+            </div>
+
+            <div class="slider-controls">
+                <span class="vid-btn active" data-src="images/vid-1.mp4"></span>
+                <span class="vid-btn" data-src="images/vid-2.mp4"></span>
+                <span class="vid-btn" data-src="images/vid-3.mp4"></span>
+                <span class="vid-btn" data-src="images/vid-4.mp4"></span>
+                <span class="vid-btn" data-src="images/vid-5.mp4"></span>
+            </div>
+
+            <div class="slider-video-container">
+                <video src="images/vid-1.mp4" id="video-slider" loop autoplay muted></video>
+            </div>
+
+        </div>
+        <!-- slider div ends -->
+
+        <!-- start app_container -->
+        <div class="app__container">
+            <div class="grid wide">
+                <!-- book section starts  -->
+                <section class="book" id="book">
+                    <h1 class="heading-content">
+                        <span>b</span>
+                        <span>o</span>
+                        <span>o</span>
+                        <span>k</span>
+                        <span class="heading-content-space"></span>
+                        <span>n</span>
+                        <span>o</span>
+                        <span>w</span>
+                    </h1>
+
+                    <div class="imgForm">
+                        <div class="row sm-gutter app__content">                         
+                            <div class="col l-6 m-6 s-12">
+                                <div class="imgForm-image">
+                                    <img src="images/book-img.svg" alt="">
+                                </div>
+                            </div>
+                        
+                            <div class="col l-6 m-12 s-12">
+                                <form action="" class="imgForm-form">
+                                    <div class="imgForm-form_inputBox">
+                                        <h3>Where to</h3>
+                                        <input type="text" placeholder="Place name">
+                                    </div>
+                                    <div class="imgForm-form_inputBox">
+                                        <h3>How many</h3>
+                                        <input type="number" placeholder="Number of guests">
+                                    </div>
+                                    <div class="imgForm-form_inputBox">
+                                        <h3>Arrivals</h3>
+                                        <input type="date">
+                                    </div>
+                                    <div class="imgForm-form_inputBox">
+                                        <h3>Leaving</h3>
+                                        <input type="date">
+                                    </div>
+                                    <input type="submit" class="btn" value="Book now">
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- book section ends -->
+                
+
+                <!-- packages section starts  -->
+                <section class="packages" id="packages">
+
+                    <h1 class="heading-content">
+                        <span>p</span>
+                        <span>a</span>
+                        <span>c</span>
+                        <span>k</span>
+                        <span>a</span>
+                        <span>g</span>
+                        <span>e</span>
+                        <span>s</span>
+                    </h1>
+
+                    <div class="box-container">
+                        <div class="row sm-gutter app__content">
+                            
+                            <div class="col l-3 m-4 s-6">
+                                <div class="box-container-block">
+                                    <img id="myImg" src="images/p-1.jpg" alt="">                                  
+                                    <div class="block-content">
+                                        <a href="https://goo.gl/maps/uoz9kbhdhNgW1LwA6">
+                                        <h3> <i class="fas fa-map-marker-alt"></i> Mumbai </h3></a>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nam!</p>                                  
+                                        <div class="block-content_price"> 
+                                            <p>16.000.000 đ</p>
+                                            <p>14.000.000 đ</p>   
+                                        </div>
+
+                                        <div class="block-content_stars">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                        </div>
+                                        <div class="block-content_act">
+                                            <a href="#" class="btn"> Detail </a>
+                                            <a href="#" class="btn">Book </a>                                 
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>                
+                                                        
+                            <div class="col l-3 m-4 s-6">
+                                <div class="box-container-block">
+                                    <img id="myImg" src="images/p-3.jpg" alt="">                                  
+                                    <div class="block-content">
+                                        <a href="https://goo.gl/maps/dKaLqJEFZ3gu1oxP8">
+                                        <h3> <i class="fas fa-map-marker-alt"></i> sydney </h3></a>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nam!</p>                                  
+                                        <div class="block-content_price"> 
+                                            <p>20.000.000 đ</p>
+                                            <p>15.000.000 đ</p>   
+                                        </div>
+
+                                        <div class="block-content_stars">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                        </div>
+                                        <div class="block-content_act">
+                                            <a href="#" class="btn"> Detail </a>
+                                            <a href="#" class="btn">Book </a>                                 
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col l-3 m-4 s-6">
+                                <div class="box-container-block">
+                                    <img id="myImg" src="images/p-4.jpg" alt="">                                  
+                                    <div class="block-content">
+                                        <a href="https://goo.gl/maps/jqmMU47QFD2xJTnr6">
+                                        <h3> <i class="fas fa-map-marker-alt"></i> paris </h3></a>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nam!</p>                                  
+                                        <div class="block-content_price"> 
+                                            <p>10.000.000 đ</p>
+                                            <p>8.000.000 đ</p>   
+                                        </div>
+
+                                        <div class="block-content_stars">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                        </div>
+                                        <div class="block-content_act">
+                                            <a href="#" class="btn"> Detail </a>
+                                            <a href="#" class="btn">Book </a>                                 
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col l-3 m-4 s-6">
+                                <div class="box-container-block">
+                                    <img id="myImg" src="images/p-5.jpg" alt="">                                  
+                                    <div class="block-content">
+                                        <a href="https://goo.gl/maps/mdaWStf7rghjJxRVA">
+                                        <h3> <i class="fas fa-map-marker-alt"></i> tokyo </h3></a>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nam!</p>                                  
+                                        <div class="block-content_price"> 
+                                            <p>16.000.000 đ</p>
+                                            <p>15.000.000 đ</p>   
+                                        </div>
+
+                                        <div class="block-content_stars">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                        </div>
+                                        <div class="block-content_act">
+                                            <a href="#" class="btn"> Detail </a>
+                                            <a href="#" class="btn">Book </a>                                 
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col l-3 m-4 s-6">
+                                <div class="box-container-block">
+                                    <img id="myImg" src="images/p-6.jpg" alt="">                                  
+                                    <div class="block-content">
+                                        <a href="https://goo.gl/maps/gkXBe8EEW2EJ1g576">
+                                        <h3> <i class="fas fa-map-marker-alt"></i> eypt </h3></a>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nam!</p>                                  
+                                        <div class="block-content_price"> 
+                                            <p>18.000.000 đ</p>
+                                            <p>16.500.000 đ</p>   
+                                        </div>
+
+                                        <div class="block-content_stars">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                        </div>
+                                        <div class="block-content_act">
+                                            <a href="#" class="btn"> Detail </a>
+                                            <a href="#" class="btn">Book </a>                                 
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col l-3 m-4 s-6">
+                                <div class="box-container-block">
+                                    <img id="myImg" src="images/p-7.jfif" alt="">                                  
+                                    <div class="block-content">
+                                        <a href="https://goo.gl/maps/7Dxjb4cypLCQ39Qz7">
+                                        <h3> <i class="fas fa-map-marker-alt"></i> Hamburg </h3></a>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nam!</p>                                  
+                                        <div class="block-content_price"> 
+                                            <p>10.000.000 đ</p>
+                                            <p>8.000.000 đ</p>   
+                                        </div>
+
+                                        <div class="block-content_stars">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                        </div>
+                                        <div class="block-content_act">
+                                            <a href="#" class="btn"> Detail </a>
+                                            <a href="#" class="btn">Book </a>                                 
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col l-3 m-4 s-6">
+                                <div class="box-container-block">
+                                    <img id="myImg" src="images/p-8.jfif" alt="">                                  
+                                    <div class="block-content">
+                                        <a href="https://goo.gl/maps/nL3oCRtP9d3WHegm7">
+                                        <h3> <i class="fas fa-map-marker-alt"></i> hawaii </h3></a>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nam!</p>                                  
+                                        <div class="block-content_price"> 
+                                            <p>10.000.000 đ</p>
+                                            <p>8.000.000 đ</p>   
+                                        </div>
+
+                                        <div class="block-content_stars">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                        </div>
+                                        <div class="block-content_act">
+                                            <a href="#" class="btn"> Detail </a>
+                                            <a href="#" class="btn">Book </a>                                 
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col l-3 m-4 s-6">
+                                <div class="box-container-block">
+                                    <img id="myImg" src="images/p-9.jfif" alt="">                                  
+                                    <div class="block-content">
+                                        <a href="https://goo.gl/maps/h5nHzRGQgsnhasvz5">
+                                        <h3> <i class="fas fa-map-marker-alt"></i> ha long bay </h3></a>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nam!</p>                                  
+                                        <div class="block-content_price"> 
+                                            <p>10.000.000 đ</p>
+                                            <p>8.000.000 đ</p>   
+                                        </div>
+
+                                        <div class="block-content_stars">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                        </div>
+                                        <div class="block-content_act">
+                                            <a href="#" class="btn"> Detail </a>
+                                            <a href="#" class="btn">Book </a>                                 
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col l-3 m-4 s-6">
+                                <div class="box-container-block">
+                                    <img id="myImg" src="images/p-10.jfif" alt="">                                  
+                                    <div class="block-content">
+                                        <a href="https://goo.gl/maps/Ls2GGJabxhXbcMdf9">
+                                        <h3> <i class="fas fa-map-marker-alt"></i> Phú Quốc </h3></a>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nam!</p>                                  
+                                        <div class="block-content_price"> 
+                                            <p>8.000.000 đ</p>
+                                            <p>7.500.000 đ</p>   
+                                        </div>
+
+                                        <div class="block-content_stars">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                        </div>
+                                        <div class="block-content_act">
+                                            <a href="#" class="btn"> Detail </a>
+                                            <a href="#" class="btn">Book </a>                                 
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div id="myModal" class="modal">
+                                <span class="close">&times;</span>
+                                <img class="modal-content" id="img01">                                
+                            </div>
+                            
+                        </div>
+                    </div>
+                </section>     
+                <!-- packages section ends -->
+
+
+                <!-- services section starts  -->
+                <section class="services" id="services">
+
+                    <h1 class="heading-content">
+                        <span>s</span>
+                        <span>e</span>
+                        <span>r</span>
+                        <span>v</span>
+                        <span>i</span>
+                        <span>c</span>
+                        <span>e</span>
+                        <span>s</span>
+                    </h1>
+
+                    <div class="box-container">
+                        <div class="row sm-gutter app__content">
+
+                            <div class="col l-4 m-6 s-12">
+                                <div class="services-block">
+                                    <i class="fas fa-hotel"></i>
+                                    <h3>affordable hotels</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore commodi earum, quis voluptate exercitationem ut minima itaque iusto ipsum corrupti!</p>
+                                </div>
+                            </div>
+
+                            <div class="col l-4 m-6 s-12">
+                                <div class="services-block">
+                                    <i class="fas fa-utensils"></i>
+                                    <h3>food and drinks</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore commodi earum, quis voluptate exercitationem ut minima itaque iusto ipsum corrupti!</p>
+                                </div>
+                            </div>
+
+                            <div class="col l-4 m-6 s-12">
+                                <div class="services-block">
+                                    <i class="fas fa-bullhorn"></i>
+                                    <h3>safty guide</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore commodi earum, quis voluptate exercitationem ut minima itaque iusto ipsum corrupti!</p>
+                                </div>
+                            </div>
+
+                            <div class="col l-4 m-6 s-12">
+                                <div class="services-block">
+                                    <i class="fas fa-globe-asia"></i>
+                                    <h3>around the world</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore commodi earum, quis voluptate exercitationem ut minima itaque iusto ipsum corrupti!</p>
+                                </div>
+                            </div>
+
+                            <div class="col l-4 m-6 s-12">
+                                <div class="services-block">
+                                    <i class="fas fa-plane"></i>
+                                    <h3>fastest travel</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore commodi earum, quis voluptate exercitationem ut minima itaque iusto ipsum corrupti!</p>
+                                </div>
+                            </div>
+
+                            <div class="col l-4 m-6 s-12">
+                                <div class="services-block">
+                                    <i class="fas fa-hiking"></i>
+                                    <h3>adventures</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore commodi earum, quis voluptate exercitationem ut minima itaque iusto ipsum corrupti!</p>
+                                </div>
+                            </div>                       
+                        </div>
+                    </div>
+                </section>
+                <!-- services section ends -->
+
+
+                <!-- gallery section starts  -->
+                <section class="gallery" id="gallery">
+
+                    <h1 class="heading-content">
+                        <span>g</span>
+                        <span>a</span>
+                        <span>l</span>
+                        <span>l</span>
+                        <span>e</span>
+                        <span>r</span>
+                        <span>y</span>
+                    </h1>
+
+                    <div class="box-container">
+                        <div class="row sm-gutter app__content">
+                            <div class="col l-3 m-4 s-6">
+                                <div class="box-container-block">
+                                    <img src="images/g-1.jpg" alt="">
+                                    <div class="block-content">
+                                        <h3>amazing places</h3>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, tenetur.</p>
+                                        <a href="#" class="btn"> see more</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col l-3 m-4 s-6">
+                                <div class="box-container-block">
+                                    <img src="images/g-2.jpg" alt="">
+                                    <div class="block-content">
+                                        <h3>amazing places</h3>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, tenetur.</p>
+                                        <a href="#" class="btn">see more</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col l-3 m-4 s-6">
+                                <div class="box-container-block">
+                                    <img src="images/g-3.jpg" alt="">
+                                    <div class="block-content">
+                                        <h3>amazing places</h3>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, tenetur.</p>
+                                        <a href="#" class="btn">see more</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col l-3 m-4 s-6">
+                                <div class="box-container-block">
+                                    <img src="images/g-4.jpg" alt="">
+                                    <div class="block-content">
+                                        <h3>amazing places</h3>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, tenetur.</p>
+                                        <a href="#" class="btn">see more</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col l-3 m-4 s-6">
+                                <div class="box-container-block">
+                                    <img src="images/g-5.jpg" alt="">
+                                    <div class="block-content">
+                                        <h3>amazing places</h3>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, tenetur.</p>
+                                        <a href="#" class="btn">see more</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col l-3 m-4 s-6">
+                                <div class="box-container-block">
+                                    <img src="images/g-6.jpg" alt="">
+                                    <div class="block-content">
+                                        <h3>amazing places</h3>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, tenetur.</p>
+                                        <a href="#" class="btn">see more</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col l-3 m-4 s-6">
+                                <div class="box-container-block">
+                                    <img src="images/g-7.jpg" alt="">
+                                    <div class="block-content">
+                                        <h3>amazing places</h3>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, tenetur.</p>
+                                        <a href="#" class="btn">see more</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col l-3 m-4 s-6">
+                                <div class="box-container-block">
+                                    <img src="images/g-8.jpg" alt="">
+                                    <div class="block-content">
+                                        <h3>amazing places</h3>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, tenetur.</p>
+                                        <a href="#" class="btn">see more</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col l-3 m-4 s-6">
+                                <div class="box-container-block">
+                                    <img src="images/g-9.jpg" alt="">
+                                    <div class="block-content">
+                                        <h3>amazing places</h3>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, tenetur.</p>
+                                        <a href="#" class="btn">see more</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </section>
+                <!-- gallery section ends -->
+
+
+                <!-- review section starts  -->
+                <section class="review" id="review">
+                    <h1 class="heading-content">
+                        <span>r</span>
+                        <span>e</span>
+                        <span>v</span>
+                        <span>i</span>
+                        <span>e</span>
+                        <span>w</span>
+                    </h1>
+
+                    <div class="swiper-container review-slider">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="box-container-block">
+                                    <img src="images/pic1.png" alt="">
+                                    <h3>john deo</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa adipisci quisquam sunt nesciunt fugiat odit minus illum asperiores dolorum enim sint quod ipsam distinctio molestias consectetur ducimus beatae, reprehenderit exercitationem!</p>
+                                    <div class="stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="box-container-block">
+                                    <img src="images/pic2.png" alt="">
+                                    <h3>john deo</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa adipisci quisquam sunt nesciunt fugiat odit minus illum asperiores dolorum enim sint quod ipsam distinctio molestias consectetur ducimus beatae, reprehenderit exercitationem!</p>
+                                    <div class="stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="box-container-block">
+                                    <img src="images/pic3.png" alt="">
+                                    <h3>john deo</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa adipisci quisquam sunt nesciunt fugiat odit minus illum asperiores dolorum enim sint quod ipsam distinctio molestias consectetur ducimus beatae, reprehenderit exercitationem!</p>
+                                    <div class="stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="box-container-block">
+                                    <img src="images/pic4.png" alt="">
+                                    <h3>john deo</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa adipisci quisquam sunt nesciunt fugiat odit minus illum asperiores dolorum enim sint quod ipsam distinctio molestias consectetur ducimus beatae, reprehenderit exercitationem!</p>
+                                    <div class="stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- review section ends -->
+
+
+                <!-- contact section starts  -->
+                <section class="contact" id="contact">
+                    
+                    <h1 class="heading-content">
+                        <span>c</span>
+                        <span>o</span>
+                        <span>n</span>
+                        <span>t</span>
+                        <span>a</span>
+                        <span>c</span>
+                        <span>t</span>
+                    </h1>                    
+
+                    <div class="imgForm">
+                        <div class="row sm-gutter app__content">                         
+                            <div class="col l-6 m-6 s-12">
+                                <div class="imgForm-image">
+                                    <img src="images/contact-img.svg" alt="">
+                                </div>
+                            </div>
+                        
+                            <div class="col l-6 m-12 s-12">
+                                <form action="" class="imgForm-form">
+                                    <div class="imgForm-form_inputBox">
+                                        <input type="text" placeholder="Your name">
+                                        <input type="email" placeholder="Your email">
+                                    </div>
+                                    <div class="imgForm-form_inputBox">
+                                        <input type="number" placeholder="Number">
+                                        <input type="text" placeholder="Subject">
+                                    </div>
+                                    <textarea placeholder="Write message" name="" id="" cols="30" rows="10"></textarea>
+                                    <input type="submit" class="btn" value="Send message">
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </section>
+                <!-- contact section ends -->
+
+
+                <!-- brand section  -->
+                <section class="brand" id="brand">
+                    <div class="swiper-container brand-slider">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"><img src="images/1.jpg" alt=""></div>
+                            <div class="swiper-slide"><img src="images/2.jpg" alt=""></div>
+                            <div class="swiper-slide"><img src="images/3.jpg" alt=""></div>
+                            <div class="swiper-slide"><img src="images/4.jpg" alt=""></div>
+                            <div class="swiper-slide"><img src="images/5.jpg" alt=""></div>
+                            <div class="swiper-slide"><img src="images/6.jpg" alt=""></div>
+                        </div>
+                    </div>
+                </section>
+
+            </div>
+        </div>
+        
+        <!-- footer  -->
+        <div class="footer">
+            <div class="grid wide">
+                <div class="row footer-pc app__content">
+                    <div class="col l-3 m-3 s-6">
+                        <h3 class="footer-heading">About Us</h3>
+                        <ul class="footer__list">
+                            <li class="footer__item">
+                                <p class="footer__item__info ">Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Assumenda Quas Magni Pariatur Est Accusantium Voluptas Enim Nemo Facilis Sit Debitis.</p>
+                            </li>                     
+                        </ul>
+                    </div>
+                    <div class="col l-3 m-3 s-6">
+                        <h3 class="footer-heading">Follow Us</h3>
+                        <ul class="footer__list">
+                            <li class="footer__item">
+                                <a href="https://www.facebook.com/chih.97" class="footer__item__link underline">
+                                    <i class="fab fa-facebook"></i>
+                                    Facebook</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="https://www.instagram.com/txcka35" class="footer__item__link underline">
+                                    <i class="fab fa-instagram"></i>
+                                    Instagram</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="https://www.linkedin.com/in/chinhdz97" class="footer__item__link underline">
+                                    <i class="fab fa-linkedin"></i>
+                                    LinkedIn</a>
+                            </li>
+                        </ul>
+                    </div>
+                                    
+                    <div class="col l-3 m-3 s-6">
+                        <h3 class="footer-heading">Links</h3>
+                        <ul class="footer__list">
+                            <li class="footer__item">
+                                <a href="#" class="footer__item__link underline">Home</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#" class="footer__item__link underline">Books</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#" class="footer__item__link underline">Packages</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#" class="footer__item__link underline">Services</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#" class="footer__item__link underline">Gallery</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#" class="footer__item__link underline">Review</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#" class="footer__item__link underline">Contact</a>
+                            </li>
+                        </ul>
+                    </div>                   
+
+                    <div class="col l-3 m-3 s-6">
+                        <h3 class="footer-heading">Branch Locations</h3>
+                        <ul class="footer__list">
+                            <li class="footer__item">
+                                <a href="#" class="footer__item__link underline">India</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#" class="footer__item__link underline">USA</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#" class="footer__item__link underline">China</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#" class="footer__item__link underline">France</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#" class="footer__item__link underline">Japan</a>
+                            </li>                        
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer__bottom">
+            <div class="grid wide">
+                <div class="row">
+                    <div class="footer__info">                                   
+                        <span class="footer__company-name">
+                            Công Ty TNHH MTV
+                        </span>
+                        <div>
+                            <p class="footer__company-info">
+                                Địa chỉ: 70, Tô Ký, Phường Tân Chánh Hiệp, quận 12, TPHCM
+                            </p>                        
+                            <h3 class="footer__copyright-text">
+                                <script>document.write(new Date().getFullYear())</script> - Power by
+                                <span> Đức Tài</span>
+                            </h3>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End footer -->
+
+        <!-- scroll top -->
+        <a href="#" class="scroll-top">
+            <i class="fa fa-chevron-up"></i>
+        </a>
+
+</div>
+        <!-- jquery cdn link  -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+        <script src="./asset/js/main.js"></script>
+        <script src="./asset/js/header.js"></script>
+
+</body>
+</html>
